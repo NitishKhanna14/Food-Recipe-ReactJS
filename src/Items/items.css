@@ -1,0 +1,40 @@
+.card {
+    height: 315px;
+    width: 300px;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+
+.fff {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr); 
+    justify-items: center;
+}
+
+
+.card-title {
+    font-size: 100%;
+    width:25ch;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    margin-top: 2%;
+}
+
+@media(max-width:540px){
+    .fff {
+       grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card {
+        height: 255px;
+        width: 245px;
+        align-items: center;
+    }
+
+    .card-title {
+        font-size: 95%;
+    }
+  }

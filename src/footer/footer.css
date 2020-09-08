@@ -1,0 +1,17 @@
+.foo {
+    background-color: rgb(211, 54, 54);
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    justify-content: end;
+    height: 35px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    justify-content: space-around;
+    justify-items: center;
+    font-size: larger;
+    padding: 2px;
+    overflow: visible;
+}
