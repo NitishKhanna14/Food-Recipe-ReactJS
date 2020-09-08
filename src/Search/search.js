@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import "./search.css"
-import header from "../images/webhead.jpg"
+import header from "../images/webhead.png"
 import { Button } from 'reactstrap';
 
 const Search = ({search, setSearch}) => {

@@ -1,17 +1,13 @@
 import React from 'react';
 import {
-  Card, CardImg, CardText, CardBody, CardLink,
-  CardTitle, CardSubtitle, Container, Col, Row, Button, CardColumns
+  Card, CardImg, CardTitle, Button
 } from 'reactstrap';
 
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
   Link
 } from "react-router-dom"
 import "./items.css"
-import header from "../images/webhead.jpg"
+
 
 const Item = ({arr, setParam}) => {
   return (
